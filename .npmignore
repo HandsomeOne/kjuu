@@ -1,0 +1,11 @@
+*.log
+/.vscode
+/docs
+/src
+/test
+/.eslintrc
+/.gitignore
+/.prettierrc
+/.todo
+/tsconfig.json
+/yarn.lock

@@ -1,0 +1,38 @@
+Configs:
+  ☐ timeout
+
+Errors:
+  see https://github.com/sindresorhus/got#errors
+  ☐ ParseError
+  ☐ TimeoutError
+  ☐ RequestError
+  ☐ HTTPError
+
+Documentation:
+  ☐ TSDoc for interfaces and methods
+
+Misc:
+  ☐ response includes the corresponding request object
+  ☐ Strict mode (any -> unknown)
+
+Archive:
+  ✔ global `setOptions` instead of exposing `q.defaults` @done(19-01-14 18:14) @project(Misc)
+  ✔ pass Error (usually ParseError) object to `transformResponse` @done(19-01-14 17:44) @project(Misc)
+  ✔ make useMock accept not necessarily a function @done(19-01-14 16:35) @project(Misc)
+  ✔ q.mock? @done(18-08-30 11:30) @project(Misc)
+  ✔ `ParamsInit` support multidimensional array @done(18-08-29 16:58) @project(Misc)
+  ✔ default compile back to es5 @done(18-08-22 15:03) @project(Misc)
+  ✔ Convenient global `HTTP.Res` interface @done(18-08-15 20:16) @project(Misc)
+  ✔ q.extend @done(18-08-15 17:53) @project(Methods)
+  ✔ q.mergeOptions @done(18-08-15 17:53) @project(Methods)
+  ✔ make `transformRequest` synchronous @done(18-08-15 14:55) @project(Misc)
+  ✔ default compile to es6 @done(18-08-15 14:25) @project(Misc)
+  ✔ params and data can be `null` @done(18-08-15 14:42) @project(Misc)
+  ✔ q.put @done(18-08-14 21:12) @project(Methods)
+  ✔ q.patch @done(18-08-14 21:12) @project(Methods)
+  ✔ q.head @done(18-08-14 21:12) @project(Methods)
+  ✔ q.delete @done(18-08-14 21:15) @project(Methods)
+  ✔ async transformRequest & transformResponse @done(18-08-14 14:24)
+  ✔ transformRequest & transformResponse in options @done(18-08-14 14:24)
+  ✔ Proxy(headers) @done(18-08-14 14:24)
+  ✔ export urlify @done(18-08-14 14:24)
