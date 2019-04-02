@@ -1,7 +1,6 @@
----
-name: 更新日志
-route: /changelog
----
+## 0.7.0
+
+- 对于未在 `namespace HTTP` 里声明的接口，现在返回类型为 `unknown` 而非 `any`。
 
 ## 0.6.0
 

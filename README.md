@@ -157,7 +157,7 @@ declare namespace HTTP {
 }
 ```
 
-![](http://km.oa.com/files/photos/pictures/201903/1551861824_59_w600_h180.gif)
+![](https://thumbs.gfycat.com/DefiantFrailFunnelweaverspider-size_restricted.gif)
 
 如果后端接口已经就绪了，而你又在用 VS Code 编辑器，那么可以用插件 [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype) 从接口内容生成类型定义。
 
