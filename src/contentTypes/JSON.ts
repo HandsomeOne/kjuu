@@ -1,8 +1,8 @@
 export class JASON {
-  constructor(public value: any) {}
+  constructor(public value: unknown) {}
   toString() {
     return JSON.stringify(this.value)
   }
 }
 
-export default (value: any) => new JASON(value)
+export default (value: unknown) => new JASON(value)

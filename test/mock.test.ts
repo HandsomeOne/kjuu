@@ -6,7 +6,7 @@ beforeAll(() => {
 
   q.setOptions({
     baseUrl: 'http://a.com',
-    transformResponse: res => res && res.body.data,
+    transformResponse: res => res && (res.body as any).data,
     mockDelay: [0, 10],
   })
 

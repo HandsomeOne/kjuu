@@ -18,11 +18,13 @@ export interface QRequest
 
   responseType?: responseType
   transformRequest?: ((options: QRequest) => QRequest) | null
-  transformResponse?: ((response?: QResponse, error?: any) => any) | null
+  transformResponse?:
+    | ((response?: QResponse, error?: unknown) => unknown)
+    | null
   mockDelay?: number | [number, number]
 }
 
-export interface QResponse<T = any>
+export interface QResponse<T = unknown>
   extends Pick<
     Response,
     'ok' | 'redirected' | 'status' | 'statusText' | 'url' | 'type'
@@ -133,7 +135,7 @@ export async function transformResponse(
     },
   })
 
-  let body: any
+  let body: unknown
   try {
     body = await res[responseType]()
   } catch (e) {
