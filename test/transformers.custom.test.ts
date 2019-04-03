@@ -72,7 +72,7 @@ describe('Response', () => {
           return error
         }
         if (res) {
-          const json = res.body
+          const json = res.body as any
           if (+json.code === 0) {
             return json.data
           } else {
