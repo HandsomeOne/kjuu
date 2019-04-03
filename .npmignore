@@ -3,9 +3,11 @@
 /docs
 /src
 /test
+/.eslintingore
 /.eslintrc
 /.gitignore
 /.prettierrc
 /.todo
+/CHANGELOG.md
 /tsconfig.json
 /yarn.lock
