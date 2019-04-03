@@ -70,5 +70,13 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HandsomeOne/kjuu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HandsomeOne/kjuu/issues"
+  },
+  "homepage": "https://github.com/HandsomeOne/kjuu#readme"
 }

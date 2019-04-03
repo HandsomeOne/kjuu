@@ -2,6 +2,8 @@
 
 新一代 HTTP 请求库
 
+[![NPM](https://nodei.co/npm/kjuu.png)](https://nodei.co/npm/kjuu/)
+
 ### 轻量
 
 基于 Fetch API 开发，轻量无依赖，代码压缩并 gzip 后仅 1.8 kb；
